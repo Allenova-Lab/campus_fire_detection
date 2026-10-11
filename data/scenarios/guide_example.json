@@ -1,0 +1,14 @@
+{
+  "name": "guide_example",
+  "title": "Guide example (3 cameras)",
+  "cameras": [
+    {"name": "CAM 1", "x": 0, "y": 0, "psi": 20},
+    {"name": "CAM 2", "x": 300, "y": -400, "psi": 70},
+    {"name": "CAM 3", "x": 900, "y": 500, "psi": 220}
+  ],
+  "fires": {
+    "Guide fire": [423.1, 76.0]
+  },
+  "fire_width": 50.0,
+  "note": "The three cameras from the camera-localisation guide's worked example."
+}

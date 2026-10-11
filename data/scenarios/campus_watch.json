@@ -1,0 +1,19 @@
+{
+  "name": "campus_watch",
+  "title": "Campus watch (5 cameras)",
+  "cameras": [
+    {"name": "CAM 1", "x": 159, "y": 458, "psi": -75},
+    {"name": "CAM 2", "x": 114, "y": -180, "psi": 30},
+    {"name": "CAM 3", "x": 605, "y": 367, "psi": -157},
+    {"name": "CAM 4", "x": 817, "y": -256, "psi": 105},
+    {"name": "CAM 5", "x": 356, "y": -94, "psi": 33}
+  ],
+  "fires": {
+    "Guide fire (near the Plaza)": [423.1, 76.0],
+    "North path (Science-Sports)": [535, 345],
+    "Cafeteria": [450, 215],
+    "Chapel lawn": [250, 60]
+  },
+  "fire_width": 40.0,
+  "note": "Five mast/rooftop cameras placed so ~94% of the campus is seen by two cameras with the fire at least 100 px wide."
+}

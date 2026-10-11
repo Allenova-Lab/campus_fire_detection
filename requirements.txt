@@ -1,0 +1,11 @@
+# the app (pure Python)
+streamlit>=1.50      # UI; on_select for click-to-place, width="stretch"
+plotly>=5.20         # animated + clickable map
+pillow               # compositing the flame sprites
+numpy                # image work
+matplotlib           # --headless map PNG
+pytest               # tests
+
+# optional -- live AI (without these the app replays cached detections)
+ultralytics>=8.4     # YOLO26 needs 8.4+; pulls in PyTorch (~2 GB)
+huggingface_hub      # fetches the weights
