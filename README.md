@@ -43,7 +43,7 @@ Switch **Mode** to *Live monitoring* and press **▶ START MONITORING**:
 1. Every camera **sweeps** back and forth (±30° by default). Once a second
    each one turns, takes a photo, and the AI checks it. You see this on a
    live map (each camera's view cone moving), in all five camera feeds, and
-   in an event log.
+   in an event log. -- test ---
 2. At a **random moment** (5–15 s by default), a fire starts at a random
    spot that two cameras can see. It starts small (6 m) and grows. Nobody
    tells the system. The audience can see it on the live map (you can turn
