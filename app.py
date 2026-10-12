@@ -31,7 +31,7 @@ from firepath.cameras import list_scenarios, load_scenario
 from firepath.pipeline import Settings, run_all
 from firepath.simulate import DEFAULT_SPRITES, list_sprites
 
-st.set_page_config(page_title="FirePath", page_icon="🔥", layout="wide")
+st.set_page_config(page_title="Everblazing", page_icon="🔥", layout="wide")
 faulthandler.enable()     # if Python ever crashes hard, print where every thread was
 
 STAGES = ["① Simulate", "② Detect", "③ Locate", "④ Route"]
@@ -143,7 +143,7 @@ if event and event.get("selection", {}).get("points"):
 
 # ------------------------------------------------------------------ header
 left, right = st.columns([5, 1.3])
-left.title("🔥 FirePath — see it, find it, escape it")
+left.title("Everblazing")
 if is_live:
     mon = ss.get("monitor")
     if ss.get("live_running"):
