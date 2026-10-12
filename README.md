@@ -1,4 +1,4 @@
-# 🔥 FirePath — see it, find it, escape it
+# Everblazing
 
 Drop a fire on a campus map. Five cameras "photograph" it, an AI finds the fire
 in each photo, the cameras' sight lines cross where the fire is, and the app
